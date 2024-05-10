@@ -15,6 +15,7 @@ module.exports = {
         cxxModuleCMakeListsPath: `CMakeLists.txt`,
         cxxModuleHeaderName: 'CxxTurbomodule',
         sourceDir: 'cpp',
+        // We don't need this at all but CLI expects this to be defined.
         packageName: 'com.CxxTurbomodule',
       },
     },
