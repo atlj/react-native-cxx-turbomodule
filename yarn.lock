@@ -2613,135 +2613,115 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-native-community/cli-clean@npm:13.6.4":
-  version: 13.6.4
-  resolution: "@react-native-community/cli-clean@npm:13.6.4"
+"@react-native-community/cli-clean@portal:/Users/burakguner/kod/react-native-cli/packages/cli-clean::locator=react-native-cxx-turbomodule%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native-community/cli-clean@portal:/Users/burakguner/kod/react-native-cli/packages/cli-clean::locator=react-native-cxx-turbomodule%40workspace%3A."
   dependencies:
-    "@react-native-community/cli-tools": 13.6.4
+    "@react-native-community/cli-tools": 14.0.0-alpha.5
     chalk: ^4.1.2
     execa: ^5.0.0
     fast-glob: ^3.3.2
-  checksum: 3c19bbff26ff609828eb18ef34afc259cee667a7192b2dddc00d2b6ec0e19202c4b02ad620ca7342b2f9d93b53ec21747e3a2c7f4eac74ddabfd986700897a9b
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native-community/cli-config@npm:13.6.4":
-  version: 13.6.4
-  resolution: "@react-native-community/cli-config@npm:13.6.4"
+"@react-native-community/cli-config@portal:/Users/burakguner/kod/react-native-cli/packages/cli-config::locator=react-native-cxx-turbomodule%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native-community/cli-config@portal:/Users/burakguner/kod/react-native-cli/packages/cli-config::locator=react-native-cxx-turbomodule%40workspace%3A."
   dependencies:
-    "@react-native-community/cli-tools": 13.6.4
+    "@react-native-community/cli-tools": 14.0.0-alpha.5
     chalk: ^4.1.2
-    cosmiconfig: ^5.1.0
+    cosmiconfig: ^9.0.0
     deepmerge: ^4.3.0
     fast-glob: ^3.3.2
     joi: ^17.2.1
-  checksum: de289b885aca992aa257fa8e6bd3c7c4cbb346329d7c7f854804dbf34290e43f4cf3ee82c8b71cc24c49d6de9bd048d9480789553519e11df6a19fa0c1ecae2f
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native-community/cli-debugger-ui@npm:13.6.4":
-  version: 13.6.4
-  resolution: "@react-native-community/cli-debugger-ui@npm:13.6.4"
+"@react-native-community/cli-debugger-ui@portal:/Users/burakguner/kod/react-native-cli/packages/cli-debugger-ui::locator=react-native-cxx-turbomodule%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native-community/cli-debugger-ui@portal:/Users/burakguner/kod/react-native-cli/packages/cli-debugger-ui::locator=react-native-cxx-turbomodule%40workspace%3A."
   dependencies:
+    "@babel/runtime": ^7.8.4
     serve-static: ^1.13.1
-  checksum: 464714d9606336648228b59b90d38738687fef08a70b84a4c8001eca9dcaf9772dd0c75350b41096d8d676379a3e11e924713ddbc0310766f240f9aa88b26791
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native-community/cli-doctor@npm:13.6.4":
-  version: 13.6.4
-  resolution: "@react-native-community/cli-doctor@npm:13.6.4"
+"@react-native-community/cli-doctor@portal:/Users/burakguner/kod/react-native-cli/packages/cli-doctor::locator=react-native-cxx-turbomodule%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native-community/cli-doctor@portal:/Users/burakguner/kod/react-native-cli/packages/cli-doctor::locator=react-native-cxx-turbomodule%40workspace%3A."
   dependencies:
-    "@react-native-community/cli-config": 13.6.4
-    "@react-native-community/cli-platform-android": 13.6.4
-    "@react-native-community/cli-platform-apple": 13.6.4
-    "@react-native-community/cli-platform-ios": 13.6.4
-    "@react-native-community/cli-tools": 13.6.4
+    "@react-native-community/cli-config": 14.0.0-alpha.5
+    "@react-native-community/cli-platform-android": 14.0.0-alpha.5
+    "@react-native-community/cli-platform-apple": 14.0.0-alpha.5
+    "@react-native-community/cli-platform-ios": 14.0.0-alpha.5
+    "@react-native-community/cli-tools": 14.0.0-alpha.5
     chalk: ^4.1.2
     command-exists: ^1.2.8
     deepmerge: ^4.3.0
     envinfo: ^7.10.0
     execa: ^5.0.0
-    hermes-profile-transformer: ^0.0.6
     node-stream-zip: ^1.9.1
     ora: ^5.4.1
     semver: ^7.5.2
     strip-ansi: ^5.2.0
     wcwidth: ^1.0.1
     yaml: ^2.2.1
-  checksum: 9647c6feb10cb7def633df98e9b4912b32316cdfd081ea9928ce6803b8f477e06c11034c3e98f9a24069cab6df95a7e9faafcdf40801f5b3bd2a647a4d961121
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native-community/cli-hermes@npm:13.6.4":
-  version: 13.6.4
-  resolution: "@react-native-community/cli-hermes@npm:13.6.4"
+"@react-native-community/cli-platform-android@portal:/Users/burakguner/kod/react-native-cli/packages/cli-platform-android::locator=react-native-cxx-turbomodule%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native-community/cli-platform-android@portal:/Users/burakguner/kod/react-native-cli/packages/cli-platform-android::locator=react-native-cxx-turbomodule%40workspace%3A."
   dependencies:
-    "@react-native-community/cli-platform-android": 13.6.4
-    "@react-native-community/cli-tools": 13.6.4
-    chalk: ^4.1.2
-    hermes-profile-transformer: ^0.0.6
-  checksum: 678bf5923a4145ffc229f143d73405e5d4007cc396bd1c510e05b3600f6b41f7746b0751fccac929fd4f197aae4d44945f306f451b6aed75a5655b18cef18af6
-  languageName: node
-  linkType: hard
-
-"@react-native-community/cli-platform-android@npm:13.6.4":
-  version: 13.6.4
-  resolution: "@react-native-community/cli-platform-android@npm:13.6.4"
-  dependencies:
-    "@react-native-community/cli-tools": 13.6.4
+    "@react-native-community/cli-tools": 14.0.0-alpha.5
     chalk: ^4.1.2
     execa: ^5.0.0
     fast-glob: ^3.3.2
     fast-xml-parser: ^4.2.4
     logkitty: ^0.7.1
-  checksum: 881e8f812d90f86a2281eed0253bda3f4253f46b62b9526f1cbb337f52dac3b8e956a30fd4e892853ef077fbf23d9968edfd8b13a1c8e115453018efbebfd5ba
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native-community/cli-platform-apple@npm:13.6.4":
-  version: 13.6.4
-  resolution: "@react-native-community/cli-platform-apple@npm:13.6.4"
+"@react-native-community/cli-platform-apple@portal:/Users/burakguner/kod/react-native-cli/packages/cli-platform-apple::locator=react-native-cxx-turbomodule%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native-community/cli-platform-apple@portal:/Users/burakguner/kod/react-native-cli/packages/cli-platform-apple::locator=react-native-cxx-turbomodule%40workspace%3A."
   dependencies:
-    "@react-native-community/cli-tools": 13.6.4
+    "@react-native-community/cli-tools": 14.0.0-alpha.5
     chalk: ^4.1.2
     execa: ^5.0.0
     fast-glob: ^3.3.2
-    fast-xml-parser: ^4.0.12
+    fast-xml-parser: ^4.2.4
     ora: ^5.4.1
-  checksum: b9a5bdff2e9b9a8f88e551bebb30958abb3a4402dbe9e279bdc5a185692a997a7a4425629d1454880a1b967512140c6393350058175e94e104e3becf91248083
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native-community/cli-platform-ios@npm:13.6.4":
-  version: 13.6.4
-  resolution: "@react-native-community/cli-platform-ios@npm:13.6.4"
+"@react-native-community/cli-platform-ios@portal:/Users/burakguner/kod/react-native-cli/packages/cli-platform-ios::locator=react-native-cxx-turbomodule%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native-community/cli-platform-ios@portal:/Users/burakguner/kod/react-native-cli/packages/cli-platform-ios::locator=react-native-cxx-turbomodule%40workspace%3A."
   dependencies:
-    "@react-native-community/cli-platform-apple": 13.6.4
-  checksum: 38c5aa893279124bea3c9ecea6b41766891d4783a695e033d7b057f9fb48373a08027b144ec02de8f189381975502df4a1c6c141ce21cff04ede8d33ce21b7e2
+    "@react-native-community/cli-platform-apple": 14.0.0-alpha.5
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native-community/cli-server-api@npm:13.6.4":
-  version: 13.6.4
-  resolution: "@react-native-community/cli-server-api@npm:13.6.4"
+"@react-native-community/cli-server-api@portal:/Users/burakguner/kod/react-native-cli/packages/cli-server-api::locator=react-native-cxx-turbomodule%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native-community/cli-server-api@portal:/Users/burakguner/kod/react-native-cli/packages/cli-server-api::locator=react-native-cxx-turbomodule%40workspace%3A."
   dependencies:
-    "@react-native-community/cli-debugger-ui": 13.6.4
-    "@react-native-community/cli-tools": 13.6.4
+    "@react-native-community/cli-debugger-ui": 14.0.0-alpha.5
+    "@react-native-community/cli-tools": 14.0.0-alpha.5
     compression: ^1.7.1
     connect: ^3.6.5
     errorhandler: ^1.5.1
     nocache: ^3.0.1
     pretty-format: ^26.6.2
     serve-static: ^1.13.1
-    ws: ^7.5.1
-  checksum: 655e723a8cc549a47cb64b76639ccda4be7c3aca15e6f9cd29d56afd2c991a30407c640e023e0461a7142b67c1ae6e63b3a1b333690de9518f9dd5c92314935f
+    ws: ^6.2.2
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native-community/cli-tools@npm:13.6.4":
-  version: 13.6.4
-  resolution: "@react-native-community/cli-tools@npm:13.6.4"
+"@react-native-community/cli-tools@portal:/Users/burakguner/kod/react-native-cli/packages/cli-tools::locator=react-native-cxx-turbomodule%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native-community/cli-tools@portal:/Users/burakguner/kod/react-native-cli/packages/cli-tools::locator=react-native-cxx-turbomodule%40workspace%3A."
   dependencies:
     appdirsjs: ^1.2.4
     chalk: ^4.1.2
@@ -2754,45 +2734,42 @@ __metadata:
     semver: ^7.5.2
     shell-quote: ^1.7.3
     sudo-prompt: ^9.0.0
-  checksum: 5d2b73e3447bbaae354b6f3b615c6d5a710ed37ac7a1f04839ce884c0553872b48abbcf946a5943dd1730ae472cd05bcf0ca184fdefb94f1aef3cb88c001ff90
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native-community/cli-types@npm:13.6.4":
-  version: 13.6.4
-  resolution: "@react-native-community/cli-types@npm:13.6.4"
+"@react-native-community/cli-types@portal:/Users/burakguner/kod/react-native-cli/packages/cli-types::locator=react-native-cxx-turbomodule%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native-community/cli-types@portal:/Users/burakguner/kod/react-native-cli/packages/cli-types::locator=react-native-cxx-turbomodule%40workspace%3A."
   dependencies:
     joi: ^17.2.1
-  checksum: 9564ae655121d6057bc842a267803dee89a9e894ce57a86e152996ed270d57c5c46a754d3df1ab33b8d32ada1107bbc8f48e2d07bcdcbcaf309df1001e3107df
   languageName: node
-  linkType: hard
+  linkType: soft
 
-"@react-native-community/cli@npm:13.6.4":
-  version: 13.6.4
-  resolution: "@react-native-community/cli@npm:13.6.4"
+"@react-native-community/cli@portal:/Users/burakguner/kod/react-native-cli/packages/cli::locator=react-native-cxx-turbomodule%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@react-native-community/cli@portal:/Users/burakguner/kod/react-native-cli/packages/cli::locator=react-native-cxx-turbomodule%40workspace%3A."
   dependencies:
-    "@react-native-community/cli-clean": 13.6.4
-    "@react-native-community/cli-config": 13.6.4
-    "@react-native-community/cli-debugger-ui": 13.6.4
-    "@react-native-community/cli-doctor": 13.6.4
-    "@react-native-community/cli-hermes": 13.6.4
-    "@react-native-community/cli-server-api": 13.6.4
-    "@react-native-community/cli-tools": 13.6.4
-    "@react-native-community/cli-types": 13.6.4
+    "@react-native-community/cli-clean": 14.0.0-alpha.5
+    "@react-native-community/cli-config": 14.0.0-alpha.5
+    "@react-native-community/cli-debugger-ui": 14.0.0-alpha.5
+    "@react-native-community/cli-doctor": 14.0.0-alpha.5
+    "@react-native-community/cli-server-api": 14.0.0-alpha.5
+    "@react-native-community/cli-tools": 14.0.0-alpha.5
+    "@react-native-community/cli-types": 14.0.0-alpha.5
     chalk: ^4.1.2
     commander: ^9.4.1
     deepmerge: ^4.3.0
     execa: ^5.0.0
-    find-up: ^4.1.0
+    find-up: ^5.0.0
     fs-extra: ^8.1.0
     graceful-fs: ^4.1.3
     prompts: ^2.4.2
     semver: ^7.5.2
   bin:
-    react-native: build/bin.js
-  checksum: fd450d26be7de6950d25112184e645e0e5eacee2883869c2521f8dfe5be3225dfa5753531f847c5d2d489b55993b048338fbce0a6da99784e269d6283d695cc2
+    cli: build/bin.js
+    rnccli: build/bin.js
   languageName: node
-  linkType: hard
+  linkType: soft
 
 "@react-native/assets-registry@npm:0.74.81":
   version: 0.74.81
@@ -5045,7 +5022,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cosmiconfig@npm:^5.0.5, cosmiconfig@npm:^5.1.0":
+"cosmiconfig@npm:^5.0.5":
   version: 5.2.1
   resolution: "cosmiconfig@npm:5.2.1"
   dependencies:
@@ -5084,6 +5061,23 @@ __metadata:
     typescript:
       optional: true
   checksum: dc339ebea427898c9e03bf01b56ba7afbac07fc7d2a2d5a15d6e9c14de98275a9565da949375aee1809591c152c0a3877bb86dbeaf74d5bd5aaa79955ad9e7a0
+  languageName: node
+  linkType: hard
+
+"cosmiconfig@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "cosmiconfig@npm:9.0.0"
+  dependencies:
+    env-paths: ^2.2.1
+    import-fresh: ^3.3.0
+    js-yaml: ^4.1.0
+    parse-json: ^5.2.0
+  peerDependencies:
+    typescript: ">=4.9.5"
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: a30c424b53d442ea0bdd24cb1b3d0d8687c8dda4a17ab6afcdc439f8964438801619cdb66e8e79f63b9caa3e6586b60d8bab9ce203e72df6c5e80179b971fe8f
   languageName: node
   linkType: hard
 
@@ -5585,7 +5579,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"env-paths@npm:^2.2.0":
+"env-paths@npm:^2.2.0, env-paths@npm:^2.2.1":
   version: 2.2.1
   resolution: "env-paths@npm:2.2.1"
   checksum: 65b5df55a8bab92229ab2b40dad3b387fad24613263d103a97f91c9fe43ceb21965cd3392b1ccb5d77088021e525c4e0481adb309625d0cb94ade1d1fb8dc17e
@@ -6317,7 +6311,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-xml-parser@npm:^4.0.12, fast-xml-parser@npm:^4.2.4":
+"fast-xml-parser@npm:^4.2.4":
   version: 4.3.6
   resolution: "fast-xml-parser@npm:4.3.6"
   dependencies:
@@ -7114,15 +7108,6 @@ __metadata:
   dependencies:
     hermes-estree: 0.20.1
   checksum: 2a0c17b5f8fbb0a377f42d480f577b5cc64eafe4d5ebc0a9cbce23b79a02042693134bef1b71163f771d67cd10a450138c8d24b9a431c487fa9ed57cba67e85c
-  languageName: node
-  linkType: hard
-
-"hermes-profile-transformer@npm:^0.0.6":
-  version: 0.0.6
-  resolution: "hermes-profile-transformer@npm:0.0.6"
-  dependencies:
-    source-map: ^0.7.3
-  checksum: b5f874eaa65b70d88df7a4ce3b20d73312bb0bc73410f1b63d708f02e1c532ae16975da84e23b977eab8592ac95d7e6fc0c4094c78604fd0a092ed886c62aa7a
   languageName: node
   linkType: hard
 
@@ -11893,13 +11878,6 @@ __metadata:
   version: 0.6.1
   resolution: "source-map@npm:0.6.1"
   checksum: 59ce8640cf3f3124f64ac289012c2b8bd377c238e316fb323ea22fbfe83da07d81e000071d7242cad7a23cd91c7de98e4df8830ec3f133cb6133a5f6e9f67bc2
-  languageName: node
-  linkType: hard
-
-"source-map@npm:^0.7.3":
-  version: 0.7.4
-  resolution: "source-map@npm:0.7.4"
-  checksum: 01cc5a74b1f0e1d626a58d36ad6898ea820567e87f18dfc9d24a9843a351aaa2ec09b87422589906d6ff1deed29693e176194dc88bcae7c9a852dc74b311dbf5
   languageName: node
   linkType: hard
 
