@@ -11,6 +11,10 @@ procs:
     shell: yarn android
     cwd: example
     autostart: false
+  React Native Config:
+    shell: yarn react-native config
+    cwd: example
+    autostart: false
   Start example:
     shell: yarn start
     cwd: example
