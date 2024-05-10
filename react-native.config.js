@@ -12,7 +12,7 @@ module.exports = {
        */
       android: {
         cxxModuleCMakeListsModuleName: 'CxxTurbomodule',
-        cxxModuleCMakeListsPath: `../cpp/CMakeLists.txt`,
+        cxxModuleCMakeListsPath: `CMakeLists.txt`,
         cxxModuleHeaderName: 'CxxTurbomodule',
         sourceDir: 'cpp',
         packageName: 'com.CxxTurbomodule',
