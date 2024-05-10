@@ -3,9 +3,8 @@ procs:
     shell:  pod install
     cwd: example/ios
     autostart: false
-  Run Codegen:
-    shell: npx react-native codegen
-    cwd: example
+  Generate Codegen:
+    shell: yarn generate-codegen-specs
     autostart: false
   Build Android:
     shell: yarn android
