@@ -159,7 +159,7 @@
   },
   "codegenConfig": {
     "name": "RNCxxTurbomoduleSpec",
-    "type": "modules",
+    "type": "all",
     "jsSrcsDir": "src"
   }
 }

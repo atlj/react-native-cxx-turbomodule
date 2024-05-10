@@ -7,6 +7,10 @@ procs:
     shell: npx react-native codegen
     cwd: example
     autostart: false
+  Build Android:
+    shell: yarn android
+    cwd: example
+    autostart: false
   Start example:
     shell: yarn start
     cwd: example

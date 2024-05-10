@@ -34,14 +34,13 @@
 #include <react/renderer/componentregistry/ComponentDescriptorProviderRegistry.h>
 #include <rncli.h>
 #include <rncore.h>
-#include <CxxTurboModule.hpp>
 
 #ifdef REACT_NATIVE_APP_CODEGEN_HEADER
 #include REACT_NATIVE_APP_CODEGEN_HEADER
 #endif
-//#ifdef REACT_NATIVE_APP_COMPONENT_DESCRIPTORS_HEADER
-//#include REACT_NATIVE_APP_COMPONENT_DESCRIPTORS_HEADER
-//#endif
+#ifdef REACT_NATIVE_APP_COMPONENT_DESCRIPTORS_HEADER
+#include REACT_NATIVE_APP_COMPONENT_DESCRIPTORS_HEADER
+#endif
 
 namespace facebook::react {
 
@@ -54,9 +53,9 @@ void registerComponents(
   //        MyComponentDescriptor>());
 
   // We link app local components if available
-//#ifdef REACT_NATIVE_APP_COMPONENT_REGISTRATION
-//  REACT_NATIVE_APP_COMPONENT_REGISTRATION(registry);
-//#endif
+#ifdef REACT_NATIVE_APP_COMPONENT_REGISTRATION
+ REACT_NATIVE_APP_COMPONENT_REGISTRATION(registry);
+#endif
 
   // And we fallback to the components autolinked by RN CLI
   rncli_registerProviders(registry);
@@ -69,10 +68,6 @@ std::shared_ptr<TurboModule> cxxModuleProvider(
   // either your application or from external libraries. The approach to follow
   // is similar to the following (for a module called `NativeCxxModuleExample`):
   //
-  // TODO CHANGE ME
-  if (name == "CxxTurbomodule") {
-    return std::make_shared<CxxTurbomodule>(jsInvoker);
-  }
 
   // And we fallback to the CXX module providers autolinked by RN CLI
   return rncli_cxxModuleProvider(name, jsInvoker);
