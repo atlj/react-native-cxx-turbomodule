@@ -14,7 +14,6 @@ module.exports = {
         cxxModuleCMakeListsModuleName: 'CxxTurbomodule',
         cxxModuleCMakeListsPath: `CMakeLists.txt`,
         cxxModuleHeaderName: 'CxxTurbomodule',
-        cxxOnly: true,
         sourceDir: 'cpp',
       },
     },
