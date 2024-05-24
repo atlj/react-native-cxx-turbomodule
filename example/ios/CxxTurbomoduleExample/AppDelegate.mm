@@ -2,15 +2,6 @@
 
 #import <React/RCTBundleURLProvider.h>
 
-#import <React/CoreModulesPlugins.h>
-#import <ReactCommon/RCTTurboModuleManager.h>
-
-// TODO: CHANGE MY NAME
-#import "CxxTurboModule.hpp"
-
-@interface AppDelegate () <RCTTurboModuleManagerDelegate> {}
-@end
-
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -35,18 +26,6 @@
 #else
   return [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 #endif
-}
-
-- (std::shared_ptr<facebook::react::TurboModule>)getTurboModule:(const std::string &)name
-                                                 jsInvoker:(std::shared_ptr<facebook::react::CallInvoker>)jsInvoker
-{
-  // TODO: CHANGE MY NAME
-  if (name == "CxxTurbomodule") {
-    // TODO: CHANGE MY NAME
-    return std::make_shared<facebook::react::CxxTurbomodule>(jsInvoker);
-  }
-
-  return nullptr;
 }
 
 @end
