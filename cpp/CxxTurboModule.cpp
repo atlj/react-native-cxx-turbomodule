@@ -1,5 +1,5 @@
 // TODO: CHANGE MY NAME
-#include "CxxTurbomodule.h"
+#include "CxxTurboModule.h"
 
 namespace facebook::react {
   // TODO: CHANGE MY NAME
