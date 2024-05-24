@@ -4,7 +4,7 @@ const fs = require('fs');
 const projectRoot = path.resolve(__dirname, '..');
 const targetDir = path.resolve(projectRoot, 'cpp');
 
-fs.rmSync(path.resolve(targetDir, 'build'), { recursive: true });
+fs.rmSync(path.resolve(targetDir, 'build'), { recursive: true, force: true });
 
 process.argv = [
   ...process.argv.slice(0, 2),
